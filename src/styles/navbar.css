@@ -1,0 +1,14 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(50deg, teal, rgb(2, 61, 61));
+
+    padding: 15px 30px;
+}
+
+.link {
+    text-decoration: none;
+    color: beige;
+    font-size: 20px;
+}
