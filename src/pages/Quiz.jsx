@@ -17,8 +17,9 @@ export const Quiz = () => {
     .finally((setLoading(false)))
   }, [])
   return (
-    <Container centerContent maxW={"container.md"} py={10}>
-      <Box p={5} borderWidth={2} boxShadow={"lg"} w="lg" textAlign={"center"}>
+    <Container centerContent maxW={"container.md"} py={10} w={"lg"}>
+      <Box p={5} borderWidth={2} boxShadow={"lg"} w="lg" textAlign={"center"} 
+      >
         <Heading>Start your Quiz!!!</Heading>
         {loading ? (
           <p>Loading...</p>
